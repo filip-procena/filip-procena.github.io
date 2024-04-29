@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* background-color: #ffffff; */
+            
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #f5f5dc, #e6e6d8); /* Beige gradient */    }
+
+
+        .container {
+            width: 90%; /* Adjust the width as needed */
+            max-width: 1000px; /* Set maximum width to prevent it from getting too wide on large screens */
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .main-content {
+            width: 70%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .contact-info {
+            width: 32%;
+            padding-left: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .whatsapp-button, .viber-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #25d366; /* WhatsApp green */
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-right: 10px;
+        }
+
+        .viber-button {
+            background-color: #665cac; /* Viber purple */
+        }
+
+        .image-grid {
+    position: fixed;
+    bottom: 0;
+    left: 50%; /* Adjust the left position */
+    transform: translateX(-50%); /* Center the images horizontally */
+    width: 50%; /* Adjust the width to occupy the right half of the page */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 9999; /* Ensure images appear above other content */
+}
+
+
+.image-container {
+    width: 25.5%; /* Each image container takes up 25% of the width */
+    padding-bottom: 25.5%; /* Set the height of each container to maintain a 1:1 aspect ratio */
+    position: relative;
+}
+
+.circular-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: square;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    /* Additional styles can be added as needed */
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    /* Additional styles can be added as needed */
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="main-content">
+        <h1> Vaš agent za naplatu i procenu štete - <br> Filip Filipović</h1>
+        <br>
+        <h2><strong>  USLUGE | PROCENE I NAPLATE ŠTETA</strong></h2>
+        <h4> ------- Kao posledica saobraćajnih nezgoda, povreda na radu u zemlji i inostranstvu-------</h4>
+        <h4>Da li ste se ikad zapitali šta se dešava nakon saobraćajne nesreće? 
+            Jednostavno nas pozovite, a mi preuzimamo celokupan postupak.
+
+            <ul>
+                <li> Dolazak na adresu</li>
+                <li> Prikupljanje neophodne dokumentacije </li>
+                <li> Procena štete na vozilu </li>
+                <li> Komunikacija sa osiguravajućim društvima </li>
+
+            </ul>
+
+            **Nećete snositi nikakve troškove dok šteta ne bude uplaćena na vaš račun, u skladu sa našom politikom**
+        </h4>
+    </div>
+    <div class="contact-info">
+        <h2>Kontakt </h2>
+        <p><strong>Kontakt telefon:</strong> <a href="tel:+381692092129"> (+381) 692092129</p></a>
+        <p><strong>Email:</strong> filip.procenastete@gmail.com</p>
+        <p><strong>Adresa:</strong> Bulevar Zorana Đinđića 117, Beograd</p>
+        <p>
+            <a href="https://wa.me/+381692092129" class="whatsapp-button">Add me on WhatsApp</a>
+            <a href="viber://add?number=+381692092129" class="viber-button">Add me on Viber</a>
+        </p>
+    </div>
+</div>
+
+
+<div class="image-grid">
+    <div class="image-container">
+        <img src="image-1.png" alt="Image 1" class="circular-image">
+    </div>
+    <div class="image-container">
+        <img src="image-2.png" alt="Image 2" class="circular-image">
+    </div>
+
+    <div class="image-container">
+        <img src="image-4.png" alt="Image 4" class="circular-image">
+    </div>
+</div>
+
+
+</body>
+</html>
