@@ -115,7 +115,35 @@ h4 {
 }
 
 
+/* Adjustments for mobile devices */
+@media screen and (max-width: 768px) {
+    /* Ensure main content container takes up full width */
+    .container {
+        width: 100%;
+        padding: 0 20px; /* Add some padding to the sides */
+    }
+    
+    /* Increase font size for better readability */
+    h1, h2, h3, p, li {
+        font-size: 18px;
+    }
+    
+    /* Enlarge buttons for easier tapping */
+    button, .button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
 
+    /* Stack elements vertically */
+    .contact-info p {
+        margin-bottom: 10px; /* Add some spacing between paragraphs */
+    }
+
+    /* Ensure contact information is easily visible */
+    .contact-info {
+        margin-top: 20px; /* Add some space between content and contact info */
+    }
+}
 
     </style>
 </head>
